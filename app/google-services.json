@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1091134526615",
+    "firebase_url": "https://avian-compiler-269816.firebaseio.com",
+    "project_id": "avian-compiler-269816",
+    "storage_bucket": "avian-compiler-269816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091134526615:android:4e786e21b3b30eadda85d2",
+        "android_client_info": {
+          "package_name": "com.oladriver.conductores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091134526615-ehtuejn3ceivs13h3k340kaekvtneq36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oladriver.conductores",
+            "certificate_hash": "e12fd70463e4c891c64ad8786fa766ade065c453"
+          }
+        },
+        {
+          "client_id": "1091134526615-c29n8n6013955v9b9v7ik4bjpqnmau2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqT9FGbT9lClpKdN7J5oARTGbX9BerY9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091134526615-6oi3vvop6ln6c9ocjbggfdajvi8tsimn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
