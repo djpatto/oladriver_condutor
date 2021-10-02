@@ -4,7 +4,7 @@ package com.utils;
 public class CommonUtilities {
     public static final String TOLLURL = "https://tce.cit.api.here.com/2/calculateroute.json?app_id=";
 
-  public static final String SERVER = "https://update.oladriver.com/";
+  public static final String SERVER = "https://oladriver.com/";
 
     public static final String SERVER_FOLDER_PATH = "";
     public static final String SERVER_WEBSERVICE_PATH = SERVER_FOLDER_PATH + "webservice_shark.php?";
