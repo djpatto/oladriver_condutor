@@ -95,13 +95,7 @@ public class OpenMainProfile {
             requestPermissions.add ( android.Manifest.permission. RECORD_AUDIO);
             requestPermissions.add ( Manifest.permission.READ_PHONE_STATE);
         }
-
-
-
-
         setGeneralData();
-
-
 
         if (!generalFun.isAllPermissionGranted (false, requestPermissions)) {
 
@@ -111,7 +105,6 @@ public class OpenMainProfile {
 
             return;
         }
-
 
         animateMarker.driverMarkerAnimFinished = true;
 
@@ -216,9 +209,7 @@ public class OpenMainProfile {
                 String ePaymentCollect = generalFun.getJsonValueStr("ePaymentCollect", last_trip_data);
                 String eBookingFrom = generalFun.getJsonValueStr("eBookingFrom", last_trip_data);
                 if (ePaymentCollect.equals("No")) {
-
-
-
+                    new StartActProcess(mContext).startActWithData(CollectPaymentActivity.class, bn);
                 } else {
                     if (Utils.checkText(eBookingFrom) && eBookingFrom.equalsIgnoreCase(Utils.eSystem_Type_KIOSK)) {
                         new StartActProcess(mContext).startActWithData(MainActivity.class, bn);
@@ -251,7 +242,6 @@ public class OpenMainProfile {
                         map.put("vTripStatus", "EN_ROUTE");
                         bn.putSerializable("TRIP_DATA", map);
                         bn.putBoolean("isnotification", isnotification);
-                        Log.d("ScubgoTVIAGEM", "startProcess: ");
                         new StartActProcess(mContext).startActWithData(AdditionalChargeActivity.class, bn);
                     } else {
 
